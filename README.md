@@ -74,9 +74,10 @@ Python 3.5. We recommend installing the free Anaconda distribution of Python, av
 
 The following packages should be installed on your system:
 
-* ipython>=3.0
-* numpy>=1.9
-* pandas>=0.16.2
+* jupyter
+* ipython>=4.0
+* numpy>=1.10
+* pandas>=0.18
 * scipy
 * matplotlib
 * scikit-learn
