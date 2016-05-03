@@ -97,7 +97,7 @@ If you have installed Anaconda, these should already be available to you.
 
 ## Getting this repository
 
-    git clone https://github.com/fonnesbeck/ngcm_pandas_course.git
+    git clone https://github.com/fonnesbeck/ngcm_pandas_2016.git
 
 Make sure you have the requirements installed.
 
