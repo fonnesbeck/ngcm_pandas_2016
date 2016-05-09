@@ -2,7 +2,7 @@
 
 ## NGCM Summer Academy 2016
 
-This tutorial will introduce the use of Python for statistical data analysis, using data stored as Pandas DataFrame objects. Much of the work involved in analyzing data resides in importing, cleaning and transforming data in preparation for analysis. Therefore, the first half of the course is comprised of a 2-part overview of basic and intermediate Pandas usage that will show how to effectively manipulate datasets in memory. This includes tasks like indexing, alignment, join/merge methods, date/time types, and handling of missing data. Next, we will cover plotting and visualization using Pandas and Seaborn, focusing on creating effective visual representations of your data, while avoiding common pitfalls. Finally, participants will be introduced to methods for statistical data modeling using some of the advanced functions in Numpy, Scipy and Pandas. This will include fitting statistical models using linear and non-linear models, bootstrapping methods, and imputation of missing data. Each section of the tutorial will involve hands-on manipulation and analysis of sample datasets, to be provided to attendees in advance.
+This tutorial will introduce the use of Python for statistical data analysis, using data stored as pandas DataFrame objects. Much of the work involved in analyzing data resides in importing, cleaning and transforming data in preparation for analysis. Therefore, the first half of the course is comprised of a 2-part overview of basic and intermediate pandas usage that will show how to effectively manipulate datasets in memory. This includes tasks like indexing, alignment, join/merge methods, date/time types, and handling of missing data. Next, we will cover plotting and visualization using pandas and Seaborn, focusing on creating effective visual representations of your data, while avoiding common pitfalls. Finally, participants will be introduced to methods for statistical data modeling using some of the advanced functions in Numpy, Scipy and pandas. This will include fitting statistical models using linear and non-linear models, bootstrapping methods, and imputation of missing data. Each section of the tutorial will involve hands-on manipulation and analysis of sample datasets, to be provided to attendees in advance.
 
 ## Instructors
 
@@ -10,59 +10,96 @@ Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
 
 ## Outline
 
-Thursday, June 23, 09:30 - 13:00
+### Thursday, June 23
 
-* NumPy arrays and indexing
-* Multidimensional arrays
-* Array methods and functions
-* Series and DataFrame objects
-* Importing data
-* Setting options
-* Categorical data
-* Indexing, data selection and subsetting
-* where and query
-* Hierarchical indexing
-* Reading and writing files
-* Sorting and ranking
-* Missing data
-* Data summarization
-* Data Wrangling with Pandas
+**09:30 - 10:45**
 
-Thursday, June 23, 14:30 - 17:30
+*Intro to NumPy and pandas (Skipper Seabold)*
 
-* Date/time types
-* Merging and joining DataFrame objects
-* Concatenation
-* Text data operations
-* Reshaping DataFrame objects
-* Pivoting
-* Data transformation
-* Rolling and window operations
-* Permutation and sampling
-* Data aggregation and GroupBy operations
-* Out-of-core workflows
-* Method chaining
-* Pipe
+- NumPy arrays and indexing
+- Multidimensional arrays
+- Array methods and functions
+- Series and DataFrame objects
+- Reading and writing files
+- Setting options
+- Categorical data
 
-Friday, June 24, 09:30 - 13:00
+**11:00 - 13:15**
 
-* Plotting in Pandas vs Matplotlib
-* Bar plots
-* Histograms
-* Box plots
-* Grouped plots
-* Scatterplots
-* Trellis plots
+*Intermediate pandas (Chris Fonnesbeck)*
 
-Friday, June 24, 14:30 - 17:30
+- Indexing, data selection and subsetting
+- `where` and `query`
+- Hierarchical indexing
+- Sorting and ranking
+- Missing data
+- Data summarization
 
-* Statistical operations in pandas
-* Fitting regression models
-* Bootstrapping
-* Working with missing data
-* Parallel computing with Dask
-* Statistical Data Modeling
-* Statistical plotting with Seaborn
+**13:15 - 14:15 Lunch**
+
+**14:15 - 16:00**
+
+*Data Manipulation with pandas (Skipper Seabold)*
+
+- Date/time types
+- Merging and joining DataFrame objects
+- Concatenation
+- Text data operations
+- Reshaping DataFrame objects
+- Pivoting
+
+**16:15 - 17:30**
+
+*pandas Best Practices (Chris Fonnesbeck)*
+
+- Data aggregation and GroupBy operations
+- Data transformation with `assign`
+- Method chaining
+- `pipe`
+
+### Friday, June 24
+
+**09:30 - 10:45**
+
+*High-level Plotting with pandas and Seaborn (Chris Fonnesbeck)*
+
+- Basic plotting with pandas
+- Controlling figure aesthetics
+- Choosing color palettes
+- Visualizing the distribution of a dataset
+- Visualizing linear relationships
+- Plotting with categorical data
+- Plotting on data-aware grids
+
+**11:00 - 13:15**
+
+*Advanced Plotting with Matplotlib and Bokeh (Skipper Seabold)*
+
+- Creating low-level plots with Matplotlib
+- Customizing plot attributes
+- Building interactive visualizations with Bokeh
+
+**13:15 - 14:15 Lunch**
+
+**14:15 - 16:00**
+
+*Data Analysis with pandas (Chris Fonnesbeck)*
+
+- Statistical operations in pandas
+- Fitting regression models
+- Permutation and sampling
+- Bootstrapping
+- Working with missing data
+- MAYBE SOME scikit-learn STUFF?
+
+**16:15 - 17:30**
+
+*Parallel Computing with Dask (Skipper Seabold)*
+
+- Dask data structures
+- ADD SOME DETAILS
+- Out-of-core/memory workflows: xray
+
 
 ## Prerequisites
 
@@ -74,24 +111,24 @@ Python 3.5. We recommend installing the free Anaconda distribution of Python, av
 
 The following packages should be installed on your system:
 
-* jupyter
-* ipython>=4.0
-* numpy>=1.10
-* pandas>=0.18
-* scipy
-* matplotlib
-* scikit-learn
-* seaborn
-* patsy
-* numexpr
-* bottleneck
-* xlrd
-* jinja2
-* tornado
-* pyzmq
-* jsonschema
-* mpld3
-* dask
+- jupyter
+- ipython>=4.0
+- numpy>=1.10
+- pandas>=0.18
+- scipy
+- matplotlib
+- scikit-learn
+- seaborn
+- patsy
+- numexpr
+- bottleneck
+- xlrd
+- jinja2
+- tornado
+- pyzmq
+- jsonschema
+- mpld3
+- dask
 
 If you have installed Anaconda, these should already be available to you.
 
