@@ -45,14 +45,14 @@ Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
 - Merging and joining DataFrame objects
 - Concatenation
 - Text data operations
-- Reshaping DataFrame objects
-- Pivoting
 
 **16:15 - 17:30**
 
 *pandas Best Practices (Chris Fonnesbeck)*
 
 - Data aggregation and GroupBy operations
+- Reshaping DataFrame objects
+- Pivoting
 - Data transformation with `assign`
 - Method chaining
 - `pipe`
