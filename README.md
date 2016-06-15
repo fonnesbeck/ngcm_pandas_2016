@@ -140,7 +140,7 @@ If you are not familiar with Git and GitHub, you can simply download the zip fil
 
 Then, move to the directory created by the clone/zip file:
 
-    cd ngcm_pandas_course
+    cd ngcm_pandas_2016
 
 and install everything using `conda`:
 
