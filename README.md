@@ -87,10 +87,9 @@ Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
 
 - Statistical operations in pandas
 - Fitting regression models
-- Permutation and sampling
 - Bootstrapping
 - Working with missing data
-- MAYBE SOME scikit-learn STUFF?
+- Data analysis with Scikit-learn
 
 **16:15 - 17:30**
 
