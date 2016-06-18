@@ -135,10 +135,24 @@ If you have installed Anaconda, these should already be available to you.
 
     git clone https://github.com/fonnesbeck/ngcm_pandas_2016.git
 
-Make sure you have the requirements installed.
+If you are not familiar with Git and GitHub, you can simply download the zip file of the repository at the top of the main repository page.
 
-    cd ngcm_pandas_course
+Then, move to the directory created by the clone/zip file:
 
-If using pip,
+    cd ngcm_pandas_2016
 
-    pip install -r requirements.txt
+and install everything using `conda`:
+
+    conda env create -f environment.yml
+    
+This will create an **environment** called `ngcm` that includes the packages required for the course.    
+    
+If you are not using the Anaconda Python distribution, you will need to manually install the packages listed in `environment.yml` using `pip`.
+
+Which you probably don't want to do.
+
+So install Anaconda.
+
+To use the environment, you may type:
+
+    source activate ngcm
