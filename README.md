@@ -143,6 +143,7 @@ Then, move to the directory created by the clone/zip file:
 
 and install everything using `conda`:
 
+    conda config --add channels conda-forge
     conda env create -f environment.yml
     
 This will create an **environment** called `ngcm` that includes the packages required for the course.    
