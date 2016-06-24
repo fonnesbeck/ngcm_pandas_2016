@@ -96,7 +96,6 @@ Christopher Fonnesbeck (Vanderbilt University) Skipper Seabold (Civis Analytics)
 *Parallel Computing with Dask (Skipper Seabold)*
 
 - Dask data structures
-- ADD SOME DETAILS
 - Out-of-core/memory workflows: xray
 
 
