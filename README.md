@@ -2,6 +2,8 @@
 
 ## NGCM Summer Academy 2016
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/fonnesbeck/ngcm_pandas_2016)
+
 This tutorial will introduce the use of Python for statistical data analysis, using data stored as pandas DataFrame objects. Much of the work involved in analyzing data resides in importing, cleaning and transforming data in preparation for analysis. Therefore, the first half of the course is comprised of a 2-part overview of basic and intermediate pandas usage that will show how to effectively manipulate datasets in memory. This includes tasks like indexing, alignment, join/merge methods, date/time types, and handling of missing data. Next, we will cover plotting and visualization using pandas and Seaborn, focusing on creating effective visual representations of your data, while avoiding common pitfalls. Finally, participants will be introduced to methods for statistical data modeling using some of the advanced functions in Numpy, Scipy and pandas. This will include fitting statistical models using linear and non-linear models, bootstrapping methods, and imputation of missing data. Each section of the tutorial will involve hands-on manipulation and analysis of sample datasets, to be provided to attendees in advance.
 
 ## Instructors
